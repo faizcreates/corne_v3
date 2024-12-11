@@ -72,12 +72,12 @@
         };
 
         LeftApp {
-            bindings = <&kp LG(TAB)>;
+            bindings = <&kp LA(TAB)>;
             key-positions = <16 14>;
         };
 
         RightApp {
-            bindings = <&kp LG(TAB)>;
+            bindings = <&kp LA(TAB)>;
             key-positions = <19 21>;
         };
 
