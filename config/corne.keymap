@@ -125,6 +125,11 @@
             bindings = <&kp CAPSLOCK>;
             key-positions = <33 34>;
         };
+
+        ShowDesktop {
+            bindings = <&kp F11>;
+            key-positions = <38 39>;
+        };
     };
 
     behaviors {
@@ -216,10 +221,10 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&none  &kp GRAVE         &kp TILDE          &kp UNDERSCORE  &kp NON_US_BACKSLASH  &none              &none        &kp AMPS         &kp ASTRK      &kp LPAR   &kp RPAR           &none
-&none  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp LEFT_BRACE  &kp RIGHT_BRACE       &none              &none        &kp DOLLAR       &kp PERCENT    &kp CARET  &kp DOUBLE_QUOTES  &none
-&none  &kp PIPE          &kp MINUS          &kp LA(MINUS)   &kp LA(LS(MINUS))     &none              &none        &kp EXCLAMATION  &kp AT_SIGN    &kp HASH   &kp SQT            &none
-                                            &kp LC(LEFT)    &lt 2 LA(BACKSPACE)   &lt 1 BACKSPACE    &lt 1 SPACE  &lt 2 ENTER      &kp LC(RIGHT)
+&none  &kp GRAVE         &kp TILDE          &kp UNDERSCORE  &kp NON_US_BACKSLASH  &none                &none              &kp AMPS         &kp ASTRK      &kp LPAR   &kp RPAR           &none
+&none  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp LEFT_BRACE  &kp RIGHT_BRACE       &kp LA(LC(LG(A)))    &kp LA(LC(LG(D)))  &kp DOLLAR       &kp PERCENT    &kp CARET  &kp DOUBLE_QUOTES  &none
+&none  &kp PIPE          &kp MINUS          &kp LA(MINUS)   &kp LA(LS(MINUS))     &kp LC(LS(LG(J)))    &kp LC(LS(D))      &kp EXCLAMATION  &kp AT_SIGN    &kp HASH   &kp SQT            &none
+                                            &kp LC(LEFT)    &lt 2 LA(BACKSPACE)   &lt 1 BACKSPACE      &lt 1 SPACE        &lt 2 ENTER      &kp LC(RIGHT)
             >;
         };
     };
