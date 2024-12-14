@@ -145,6 +145,8 @@
             hold-while-undecided-linger;
             retro-tap;
             hold-trigger-on-release;
+            quick-tap-ms = <60>;
+            require-prior-idle-ms = <45>;
         };
 
         lt_behavior: lt_behavior {
@@ -177,6 +179,7 @@
             hold-while-undecided-linger;
             retro-tap;
             hold-trigger-on-release;
+            flavor = "balanced";
         };
     };
 
